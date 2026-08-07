@@ -1,0 +1,10 @@
+[
+    {
+        "timestamp": "2026-08-07T07:10:20.334229",
+        "input_file": "data/new_data/daily_batch.csv",
+        "rows_received": 100,
+        "rows_after_deduplication": 100,
+        "total_rows_after_ingestion": 100,
+        "status": "success"
+    }
+]

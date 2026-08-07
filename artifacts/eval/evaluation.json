@@ -1,0 +1,31 @@
+{
+    "baseline_model": "Logistic Regression",
+    "candidate_model": "Random Forest",
+    "baseline_validation_metrics": {
+        "accuracy": 0.8096590909090909,
+        "precision": 0.6639004149377593,
+        "recall": 0.5714285714285714,
+        "f1": 0.6142034548944337,
+        "roc_auc": 0.8509043630338735
+    },
+    "candidate_validation_metrics": {
+        "accuracy": 0.7679924242424242,
+        "precision": 0.5456919060052219,
+        "recall": 0.7464285714285714,
+        "f1": 0.6304675716440422,
+        "roc_auc": 0.8379901509572901
+    },
+    "production_model": "logistic_regression",
+    "promotion_rule": {
+        "minimum_candidate_auc": 0.8,
+        "allowed_auc_drop_from_baseline": 0.01
+    },
+    "candidate_promoted": false,
+    "final_test_metrics": {
+        "accuracy": 0.7984862819299905,
+        "precision": 0.6650485436893204,
+        "recall": 0.4875444839857651,
+        "f1": 0.5626283367556468,
+        "roc_auc": 0.8464293575962137
+    }
+}
